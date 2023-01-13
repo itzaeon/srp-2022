@@ -1,4 +1,5 @@
-import io
+# Credits to documentation https://github.com/carsales/pyheif
+
 import os
 import pyheif
 from PIL import Image
