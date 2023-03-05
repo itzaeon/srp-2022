@@ -75,7 +75,7 @@ leaf_length, leaf_width = (leaf_rect[1][0], leaf_rect[1][1])
 penny_rect = cv2.minAreaRect(sorted_contours[0])
 penny_diameter = penny_rect[1][0]
 
-leaf_area_in_cm_squared = (leaf_length * 19.05 / penny_diameter) * (leaf_width * 19.05 / penny_diameter) / 100
+leaf_area_in_cm_squared = (leaf_length * 24.26 / penny_diameter) * (leaf_width * 24.26 / penny_diameter) / 100
 print(f'leaf area (cm^2): {leaf_area_in_cm_squared}')
 
 if debug:
